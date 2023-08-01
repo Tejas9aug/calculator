@@ -79,6 +79,7 @@ class _CalcPageState extends State<CalcPage> {
                   color: Colors.blue
               ),
             ),
+
             TextField(
               keyboardType: TextInputType.number,
               decoration: const InputDecoration(
@@ -171,6 +172,7 @@ class _CalcPageState extends State<CalcPage> {
             )
           ],
         ),
+
       ),
     );
   }
